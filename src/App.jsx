@@ -3,6 +3,7 @@ import Accordion from "./Componentes/Accordion";
 import RandomColor from "./Componentes/Random-color";
 import StarRating from "./Componentes/Star-rating";
 import ImageSlider from "./Componentes/Image-slider";
+import LoadingProducts from "./Componentes/Loading-products";
 
 export default function App() {
   return (
@@ -13,7 +14,9 @@ export default function App() {
 
       <StarRating numStars={10}/> */}
 
-      <ImageSlider url={'https://picsum.photos/v2/list?'} page={1} limit={10} />
+      {/* <ImageSlider url={'https://picsum.photos/v2/list?'} page={1} limit={10} /> */}
+
+      <LoadingProducts />
 
 
     </div>
