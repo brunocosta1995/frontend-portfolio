@@ -44,12 +44,14 @@ const menuData = [
             {
               label: "Register",
               to: "register",
-              children : [
-                  {
-                      label : 'Random data',
-                      to : ''
-                  }
+              children: [
+                {
+                  label: 'Random data',
+                  to: ''
+                }
               ]
+
+              
             },
           ],
         },

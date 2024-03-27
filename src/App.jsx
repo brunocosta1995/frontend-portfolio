@@ -10,15 +10,28 @@ import menuData from "./Componentes/Tree-view/data";
 export default function App() {
   return (
     <div>
-      {/* <Accordion />
+
+      {/* Accordian componente */}
+
+      <Accordion />
+
+      {/* Cores Aleatórias componente */}
 
       <RandomColor />
 
+      {/* Rating em estrelas componente */}
+
       <StarRating numStars={10}/>
+
+      {/*slider de Imagens componente */}
 
       <ImageSlider url={'https://picsum.photos/v2/list?'} page={1} limit={10} />
 
-      <LoadingProducts /> */}
+      {/* Carregar mais produtos componente */}
+
+      <LoadingProducts />
+
+      {/* Tree view componente/menu UI componente / menu recursivo com navegação */}
 
       <TreeView menu={menuData}/>
 
