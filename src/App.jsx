@@ -6,6 +6,7 @@ import ImageSlider from "./Componentes/Image-slider";
 import LoadingProducts from "./Componentes/Loading-products";
 import TreeView from "./Componentes/Tree-view";
 import menuData from "./Componentes/Tree-view/data";
+import QRCodeGenerator from "./Componentes/Qr-code-generator";
 
 export default function App() {
   return (
@@ -34,6 +35,10 @@ export default function App() {
       {/* Tree view componente/menu UI componente / menu recursivo com navegação */}
 
       <TreeView menu={menuData}/>
+
+      {/* Gerador de QR Code */}
+
+      <QRCodeGenerator/>
 
 
     </div>
