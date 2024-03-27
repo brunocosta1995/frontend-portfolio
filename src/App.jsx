@@ -4,6 +4,8 @@ import RandomColor from "./Componentes/Random-color";
 import StarRating from "./Componentes/Star-rating";
 import ImageSlider from "./Componentes/Image-slider";
 import LoadingProducts from "./Componentes/Loading-products";
+import TreeView from "./Componentes/Tree-view";
+import menuData from "./Componentes/Tree-view/data";
 
 export default function App() {
   return (
@@ -12,11 +14,13 @@ export default function App() {
 
       <RandomColor />
 
-      <StarRating numStars={10}/> */}
+      <StarRating numStars={10}/>
 
-      {/* <ImageSlider url={'https://picsum.photos/v2/list?'} page={1} limit={10} /> */}
+      <ImageSlider url={'https://picsum.photos/v2/list?'} page={1} limit={10} />
 
-      <LoadingProducts />
+      <LoadingProducts /> */}
+
+      <TreeView menu={menuData}/>
 
 
     </div>
