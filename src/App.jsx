@@ -7,6 +7,7 @@ import LoadingProducts from "./Componentes/Loading-products";
 import TreeView from "./Componentes/Tree-view";
 import menuData from "./Componentes/Tree-view/data";
 import QRCodeGenerator from "./Componentes/Qr-code-generator";
+import LightDarkMode from "./Componentes/Light-dark-mode";
 
 export default function App() {
   return (
@@ -40,6 +41,8 @@ export default function App() {
 
       <QRCodeGenerator/>
 
+      {/* Modificador(toggle) de Light/Dark Tema */}
+      <LightDarkMode/>
 
     </div>
   );
