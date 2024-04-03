@@ -8,6 +8,7 @@ import TreeView from "./Componentes/Tree-view";
 import menuData from "./Componentes/Tree-view/data";
 import QRCodeGenerator from "./Componentes/Qr-code-generator";
 import LightDarkMode from "./Componentes/Light-dark-mode";
+import ScrollIndicator from "./Componentes/Scroll-indicator";
 
 export default function App() {
   return (
@@ -15,34 +16,38 @@ export default function App() {
 
       {/* Accordian componente */}
 
-      <Accordion />
+      {/* <Accordion /> */}
 
       {/* Cores Aleatórias componente */}
 
-      <RandomColor />
+      {/* <RandomColor /> */}
 
       {/* Rating em estrelas componente */}
 
-      <StarRating numStars={10}/>
+      {/* <StarRating numStars={10}/> */}
 
       {/*slider de Imagens componente */}
 
-      <ImageSlider url={'https://picsum.photos/v2/list?'} page={1} limit={10} />
+      {/* <ImageSlider url={'https://picsum.photos/v2/list?'} page={1} limit={10} /> */}
 
       {/* Carregar mais produtos componente */}
 
-      <LoadingProducts />
+      {/* <LoadingProducts /> */}
 
       {/* Tree view componente/menu UI componente / menu recursivo com navegação */}
 
-      <TreeView menu={menuData}/>
+      {/* <TreeView menu={menuData}/> */}
 
       {/* Gerador de QR Code */}
 
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
 
       {/* Modificador(toggle) de Light/Dark Tema */}
-      <LightDarkMode/>
+      {/* <LightDarkMode/> */}
+
+
+      {/* Indicador do Scroll em Andamento */}
+      <ScrollIndicator url={'https://dummyjson.com/products'}/>
 
     </div>
   );

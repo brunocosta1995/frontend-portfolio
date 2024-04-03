@@ -1,0 +1,39 @@
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+}
+
+.data-container {
+    position: absolute;
+    top: 100px;
+
+}
+
+.scroll-top-container {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: #0a0a23;
+}
+
+.scroll-top-container h1 {
+    color: #fff;
+}
+
+.scroll-progress {
+    width: 100%;
+    height: 10px;
+    background-color: #5454fc;
+
+}
+
+.current-progress {
+    height: 10px;
+    background-color: #1d004d;
+    width: 0%;
+}
