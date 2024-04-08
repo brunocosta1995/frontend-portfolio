@@ -9,6 +9,7 @@ import menuData from "./Componentes/Tree-view/data";
 import QRCodeGenerator from "./Componentes/Qr-code-generator";
 import LightDarkMode from "./Componentes/Light-dark-mode";
 import ScrollIndicator from "./Componentes/Scroll-indicator";
+import TabsTest from "./Componentes/Custom-tabs/tabs-test";
 
 export default function App() {
   return (
@@ -45,9 +46,11 @@ export default function App() {
       {/* Modificador(toggle) de Light/Dark Tema */}
       {/* <LightDarkMode/> */}
 
-
       {/* Indicador do Scroll em Andamento */}
-      <ScrollIndicator url={'https://dummyjson.com/products'}/>
+      {/* <ScrollIndicator url={'https://dummyjson.com/products'}/> */}
+
+      {/* Guias Dinâmicas Personalizadas */}
+      <TabsTest/>
 
     </div>
   );
