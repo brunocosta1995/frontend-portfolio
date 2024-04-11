@@ -11,6 +11,7 @@ import LightDarkMode from "./Componentes/Light-dark-mode";
 import ScrollIndicator from "./Componentes/Scroll-indicator";
 import TabsTest from "./Componentes/Custom-tabs/tabs-test";
 import ModalTest from "./Componentes/Custom-modal/modal-test";
+import GithubFinder from "./Componentes/Github-finder";
 
 export default function App() {
   return (
@@ -54,7 +55,10 @@ export default function App() {
       {/* <TabsTest/> */}
 
       {/* Janela Modal Pop Up Customizada */}
-      <ModalTest/>
+      {/* <ModalTest/> */}
+
+      {/* Buscar usuário no GitHub */}
+      <GithubFinder/>
 
     </div>
   );
