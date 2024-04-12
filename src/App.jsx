@@ -12,6 +12,7 @@ import ScrollIndicator from "./Componentes/Scroll-indicator";
 import TabsTest from "./Componentes/Custom-tabs/tabs-test";
 import ModalTest from "./Componentes/Custom-modal/modal-test";
 import GithubFinder from "./Componentes/Github-finder";
+import SearchAutocomplete from "./Componentes/Search-autocomplete";
 
 export default function App() {
   return (
@@ -58,7 +59,10 @@ export default function App() {
       {/* <ModalTest/> */}
 
       {/* Buscar usuário no GitHub */}
-      <GithubFinder/>
+      {/* <GithubFinder/> */}
+
+      {/* Caixa de busca com preenchimento automático */}
+      <SearchAutocomplete />
 
     </div>
   );
