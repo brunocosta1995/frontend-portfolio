@@ -13,6 +13,7 @@ import TabsTest from "./Componentes/Custom-tabs/tabs-test";
 import ModalTest from "./Componentes/Custom-modal/modal-test";
 import GithubFinder from "./Componentes/Github-finder";
 import SearchAutocomplete from "./Componentes/Search-autocomplete";
+import TicTacToe from "./Componentes/Tic-tac-toe";
 
 export default function App() {
   return (
@@ -62,7 +63,10 @@ export default function App() {
       {/* <GithubFinder/> */}
 
       {/* Caixa de busca com preenchimento automático */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      {/* Componente de Jogo da velha */}
+      <TicTacToe/>
 
     </div>
   );
