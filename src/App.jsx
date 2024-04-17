@@ -14,6 +14,8 @@ import ModalTest from "./Componentes/Custom-modal/modal-test";
 import GithubFinder from "./Componentes/Github-finder";
 import SearchAutocomplete from "./Componentes/Search-autocomplete";
 import TicTacToe from "./Componentes/Tic-tac-toe";
+import FeatureFlagGlobalSate from "./Componentes/Feature-flag/context";
+import FeatureFlags from "./Componentes/Feature-flag";
 
 export default function App() {
   return (
@@ -66,7 +68,12 @@ export default function App() {
       {/* <SearchAutocomplete /> */}
 
       {/* Componente de Jogo da velha */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+
+      {/* Implementação do FeatureFlags com Context */}
+      <FeatureFlagGlobalSate>
+        <FeatureFlags/>
+      </FeatureFlagGlobalSate>
 
     </div>
   );
