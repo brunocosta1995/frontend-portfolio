@@ -17,6 +17,7 @@ import TicTacToe from "./Componentes/Tic-tac-toe";
 import FeatureFlagGlobalSate from "./Componentes/Feature-flag/context";
 import FeatureFlags from "./Componentes/Feature-flag";
 import CustomFetchHook from "./Componentes/Use-fetch/test";
+import OutsideClick from "./Componentes/Outside-click/test";
 
 export default function App() {
   return (
@@ -77,7 +78,10 @@ export default function App() {
       </FeatureFlagGlobalSate> */}
 
       {/* Custom Hook com Fetch e UseEffect */}
-      <CustomFetchHook/>
+      {/* <CustomFetchHook/> */}
+
+      {/* Componente de Clicar Fora Outside Click */}
+      <OutsideClick/>
 
     </div>
   );
