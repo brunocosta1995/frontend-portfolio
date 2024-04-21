@@ -18,6 +18,7 @@ import FeatureFlagGlobalSate from "./Componentes/Feature-flag/context";
 import FeatureFlags from "./Componentes/Feature-flag";
 import CustomFetchHook from "./Componentes/Use-fetch/test";
 import OutsideClick from "./Componentes/Outside-click/test";
+import WindowResize from "./Componentes/Windows-resize/test";
 
 export default function App() {
   return (
@@ -81,7 +82,11 @@ export default function App() {
       {/* <CustomFetchHook/> */}
 
       {/* Componente de Clicar Fora Outside Click */}
-      <OutsideClick/>
+      {/* <OutsideClick/> */}
+
+      {/* Componente Window Resize */}
+      <WindowResize/>
+
 
     </div>
   );
