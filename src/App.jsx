@@ -20,6 +20,7 @@ import CustomFetchHook from "./Componentes/Use-fetch/test";
 import OutsideClick from "./Componentes/Outside-click/test";
 import WindowResize from "./Componentes/Windows-resize/test";
 import ScrollTopBottom from "./Componentes/Scroll-top-bottom";
+import ScrollSection from "./Componentes/Scroll-top-bottom/scroll-section";
 
 export default function App() {
   return (
@@ -89,7 +90,10 @@ export default function App() {
       {/* <WindowResize/> */}
 
       {/* Rolar para baixo e cima da página */}
-      <ScrollTopBottom/>
+      {/* <ScrollTopBottom/> */}
+
+      {/* Rolar para seção específica da página */}
+      <ScrollSection/>
 
 
     </div>
