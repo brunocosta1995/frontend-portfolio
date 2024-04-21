@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect } from "react";
+import { useLayoutEffect } from "react";
 import { useState } from "react";
 
 export default function useWindowResize() {
@@ -14,7 +14,7 @@ export default function useWindowResize() {
     });
   }
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     handleResize();
 
     window.addEventListener("resize", handleResize);

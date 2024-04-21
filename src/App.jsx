@@ -19,6 +19,7 @@ import FeatureFlags from "./Componentes/Feature-flag";
 import CustomFetchHook from "./Componentes/Use-fetch/test";
 import OutsideClick from "./Componentes/Outside-click/test";
 import WindowResize from "./Componentes/Windows-resize/test";
+import ScrollTopBottom from "./Componentes/Scroll-top-bottom";
 
 export default function App() {
   return (
@@ -85,7 +86,10 @@ export default function App() {
       {/* <OutsideClick/> */}
 
       {/* Componente Window Resize */}
-      <WindowResize/>
+      {/* <WindowResize/> */}
+
+      {/* Rolar para baixo e cima da página */}
+      <ScrollTopBottom/>
 
 
     </div>
